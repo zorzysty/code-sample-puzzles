@@ -1,0 +1,32 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "author": "zorzysty",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "react-dnd-test-backend": "^5.0.1",
+    "react-test-renderer": "^16.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test-coverage": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject"
+  }
+}

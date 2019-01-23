@@ -1,0 +1,11 @@
+.App {
+  --piece-size: 180px;
+  --rows: 3;
+  --border: 3px;
+  --separator: 2px;
+  /* Above are overwritten in App.js componentDidMount method */
+
+  --blue: #45ABE4;
+  --light-blue: #cdfaff;
+  --red: #A71E21;
+}

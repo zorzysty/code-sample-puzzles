@@ -1,0 +1,69 @@
+@import "./const.css";
+
+.App {
+  --board-height: calc(var(--piece-size) * var(--rows) + (var(--rows) - 1) * var(--separator));
+  --columns: var(--rows);
+
+  width: calc(var(--piece-size) * var(--columns) + (var(--columns) - 1) * var(--separator) + 2 * var(--border));
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Board {
+  height: var(--board-height);
+  margin: 10px 0;
+  border: var(--border) solid var(--blue);
+  background-color: var(--blue);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Placeholder {
+  width: var(--piece-size);
+  height: var(--piece-size);
+  background-color: white;
+}
+
+.Placeholder-hovered {
+  background-color: var(--light-blue)
+}
+
+.Piece, .Piece img {
+  width: var(--piece-size);
+  height: var(--piece-size);
+}
+
+.Drawer {
+  width: 100%;
+  height: calc(var(--piece-size) * 1.5);
+  background-color: var(--red);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.Drawer .Piece {
+  position: absolute;
+  outline: 3px solid var(--blue);
+}
+
+.Congratulations {
+  width: 100%;
+  text-align: center;
+  font-size: 90px;
+  color: var(--red);
+  text-shadow: #494949 3px 3px 3px;
+}
+
+.Timer {
+  background-color: var(--blue);
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.Timer--error {
+  color: var(--red);
+}

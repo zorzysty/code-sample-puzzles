@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer component should render correctly based on passed props 1`] = `
+<div
+  className="Timer "
+>
+  TIME: 12345
+</div>
+`;
+
+exports[`Timer component should render correctly based on passed props 2`] = `
+<div
+  className="Timer Timer--error"
+>
+  TIME: 15
+</div>
+`;
+
+exports[`Timer component should render correctly based on passed props 3`] = `
+<div
+  className="Timer "
+>
+  Drag first item to start the clock.
+</div>
+`;

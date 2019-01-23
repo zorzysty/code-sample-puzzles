@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Congratulations component should render correctly based on passed props 1`] = `null`;
+
+exports[`Congratulations component should render correctly based on passed props 2`] = `
+<div
+  className="Congratulations"
+>
+  Awesome! You won!!!
+</div>
+`;
