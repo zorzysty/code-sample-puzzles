@@ -1,4 +1,4 @@
-#Starting the app
+# Starting the app
 To start the application run following commands:
 
 `npm install`  
@@ -6,7 +6,7 @@ To start the application run following commands:
 
 Or you can build the application using `npm run build` and use a server of choice to run it.
 
-#Customisation
+# Customisation
 You can customize the app by changing values in `const.js`. To make sure changes won't brake the game use provided unit tests.
 
 `rows` - number of rows and columns puzzle will be divided into  
@@ -18,5 +18,5 @@ You can customize the app by changing values in `const.js`. To make sure changes
 `ERROR_TIME_COST` - how much time is added to timer for every mistake (milliseconds)   
 `ERROR_COLOR_DURATION` - how long is timer highlighted in red after mistake (milliseconds)  
 
-#Testing
+# Testing
 Simply run `npm run test`
